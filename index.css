@@ -1,0 +1,259 @@
+.top {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Banner Image.png");
+    background-size: cover;
+    width: 1260px;
+    height: 600px;
+    color: white;
+    margin-left: 40px;
+}
+
+.top h1, .top h2 {
+    text-align: center;
+}
+
+.top h1 {
+    font-size: 90px;
+    margin: 0; 
+    padding: 10px 0; 
+}
+
+
+.top h2 {
+    padding-top: 200px;
+    font-size: 45px;
+}
+
+.off{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.off h1{
+    font-size: 50px;
+}
+
+.off h1, h4{
+    color: red;
+}
+
+.off img{
+    width: 600px;
+}
+
+.people{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Vectorrr.png");
+    background-size: cover;
+    width: 1260px;
+    height: 600px;
+    margin-left: 40px;
+}
+
+
+.mid{
+  text-align: left;
+  color: white;
+  padding-top: 150px;
+  padding-left: 80px;
+}
+
+.mid h1{
+  font-size: 60px;
+  margin: 0; 
+}
+
+.dif{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dif img{
+    width: 250px;
+}
+
+.right{
+    padding-top: 120px;
+}
+
+.people{
+    margin-top: 50px;
+}
+
+.shade{
+    background-color: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    width: 1260px;
+    height: 300px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding-top: 120px;
+}
+
+.shade h2{
+    margin: 0; 
+    padding: 10px 0; 
+}
+
+.date{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+
+.round {
+    width: 300px; 
+    height: 300px; 
+    border: 10px solid red; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.round img {
+    width: 80%; 
+    height: auto; 
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.left-section {
+    flex: 1;
+    position: relative;
+    padding: 20px;
+    box-shadow: none;
+    margin-left: 80px;
+}
+
+.right-section {
+    position: relative;
+    display: inline-block;
+}
+
+.gift-box {
+    width: 400px;
+    height: auto;
+    position: absolute; /* Positioning for layering */
+    top: 90px; /* Adjust as needed */
+    left: 20px; /* Adjust as needed */
+    z-index: 2;
+}
+
+
+.woman {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.discount-image {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    width: 200px;
+    right: 180px;
+}
+
+.banner {
+    position: relative; /* Ensure it is positioned relative to the container */
+    width: 100%; /* Ensure it spans full width of the container */
+    height: 200px; /* Adjust height as needed */
+    z-index: 0; /* Layer below the gift image */
+}
+
+.banner img {
+    width: 81%; /* Adjust width as needed */
+    height: 100%; /* Ensure full height */
+    object-fit: cover; /* Maintain aspect ratio and cover container */
+    margin-left: 120px; /* Adjust as needed */
+}
+
+.picture {
+    width: 90%;
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: repeat(3, 1fr); /* Keeps 3 columns */
+}
+
+.picture img {
+    width: 300px; /* Ensures images fill the cell width */
+    height: 310px;
+    margin-top: 20px;
+}
+
+.divine{
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-top: 80px;
+    text-align: center;
+    width: 1100px;
+    height: 400px;
+    margin-left: 90px;
+    border-radius: 10px;
+}
+
+
+.divine img{
+    width: 6%;
+    margin-top: 90px;
+}
+
+.input-group input{
+  padding: 10px 20px;
+}
+
+.input-group .btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+}
+
+.what{
+    background-color: #070211; 
+    color: white;
+    margin-top: 90px;
+    width: 1100px;
+    margin-left: 90px;
+    height: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 80px;
+}
+
+.last{
+    display: flex;  
+    justify-content: space-between; 
+}
+
+hr{
+    border-color: grey;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+
+.social img{
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
